@@ -1,0 +1,5 @@
+CREATE TABLE 'country' (
+'code' CHAR(2) NOT NULL PRIMARY KEY,
+'name' CHAR(52) NOT NULL,
+'population' INT(11) NOT NULL DEFAULT ’0’
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
